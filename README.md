@@ -1,7 +1,7 @@
 # The Nice programming language 
 Nice is a simple procedural programming language that supports functions, evaluating basic math expressions, and local variables
 
-## Design
+## Compiler design
 The design of the compiler is split into 3 main components:
 - `lexer` performs lexical analysis (assigns each word or character in the source text a meaningful name).
 - `parser` makes sure the source text conforms to the language grammar and generates an abstract syntax tree using a recursive descent parser. 
